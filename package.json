@@ -1,0 +1,58 @@
+{
+  "name": "todo-cli-node",
+  "description": "todo cli application",
+  "version": "1.0.0",
+  "author": "Artem @CreativeRusBear",
+  "bin": {
+    "todo-cli-node": "./bin/run"
+  },
+  "bugs": "https://github.com/CreativeRusBear/todo-cli-node/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "@oclif/config": "^1.13.3",
+    "@oclif/plugin-help": "^2.2.1",
+    "chalk": "^2.4.2",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "@oclif/test": "^1.2.5",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "globby": "^10.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
+    "rimraf": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/CreativeRusBear/todo-cli-node",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "todo-cli-node",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "CreativeRusBear/todo-cli-node",
+  "scripts": {
+    "postpack": "rimraf oclif.manifest.json",
+    "posttest": "eslint .",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
