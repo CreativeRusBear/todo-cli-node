@@ -19,7 +19,7 @@ $ npm install -g todo-cli-node
 $ todo-cli-node COMMAND
 running command...
 $ todo-cli-node (-v|--version|version)
-todo-cli-node/1.0.0 win32-x64 node-v10.16.3
+todo-cli-node/1.0.1 win32-x64 node-v10.16.3
 $ todo-cli-node --help [COMMAND]
 USAGE
   $ todo-cli-node COMMAND
@@ -50,7 +50,7 @@ DESCRIPTION
   Adds a new todo to the exiting list
 ```
 
-_See code: [src\commands\add.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.0/src\commands\add.js)_
+_See code: [src\commands\add.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.1/src\commands\add.js)_
 
 ## `todo-cli-node done`
 
@@ -68,7 +68,7 @@ DESCRIPTION
   Marks a task as done
 ```
 
-_See code: [src\commands\done.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.0/src\commands\done.js)_
+_See code: [src\commands\done.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.1/src\commands\done.js)_
 
 ## `todo-cli-node help [COMMAND]`
 
@@ -103,7 +103,7 @@ DESCRIPTION
   Removes a task permanently from db by id
 ```
 
-_See code: [src\commands\remove.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.0/src\commands\remove.js)_
+_See code: [src\commands\remove.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.1/src\commands\remove.js)_
 
 ## `todo-cli-node show`
 
@@ -118,5 +118,5 @@ DESCRIPTION
   Show all the tasks sorted by their ids
 ```
 
-_See code: [src\commands\show.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.0/src\commands\show.js)_
+_See code: [src\commands\show.js](https://github.com/CreativeRusBear/todo-cli-node/blob/v1.0.1/src\commands\show.js)_
 <!-- commandsstop -->
