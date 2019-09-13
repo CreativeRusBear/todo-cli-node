@@ -6,7 +6,10 @@ todo cli application
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/todo-cli-node.svg)](https://npmjs.org/package/todo-cli-node)
 [![Downloads/week](https://img.shields.io/npm/dw/todo-cli-node.svg)](https://npmjs.org/package/todo-cli-node)
-[![License](https://img.shields.io/npm/l/todo-cli-node.svg)](https://github.com/CreativeRusBear/todo-cli-node/blob/master/package.json)
+![License](https://img.shields.io/npm/l/todo-cli-node)
+![GitHub top language](https://img.shields.io/github/languages/top/CreativeRusBear/todo-cli-node)
+![npm bundle size (version)](https://img.shields.io/bundlephobia/min/todo-cli-node/1.0.1)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/CreativeRusBear/todo-cli-node)
 
 <!-- toc -->
 * [Usage](#usage)
